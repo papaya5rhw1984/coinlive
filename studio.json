@@ -1,0 +1,8 @@
+{
+  "company": "B",
+  "date": "2026-06-18",
+  "name": "코인 라이브",
+  "version": "v1.0",
+  "desc": "암호화폐 실시간 시세 보드 — CoinGecko 무료 무키 API(api.coingecko.com simple price). 비트코인 이더리움 등 20종 중 관심코인 선택, KRW USD 단위 전환, 24시간 등락률 색상(상승 빨강 하락 파랑), 60초 자동 갱신과 throttle(60초 2회 옵션변경 예외) 캐시 오프라인 폴백. 시세 표시 전용 투자조언 매매 기능 없음, 개인정보 미수집 INTERNET 권한만. Kotlin Compose",
+  "score": 88
+}

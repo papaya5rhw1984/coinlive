@@ -1,0 +1,15 @@
+*.iml
+.gradle/
+.idea/
+.DS_Store
+build/
+/local.properties
+.externalNativeBuild
+.cxx/
+captures/
+*.apk
+*.aab
+# 서명 키스토어는 절대 커밋 금지
+*.jks
+*.keystore
+keystore.properties

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_coin_bg"
+    android:gravity="center_vertical"
+    android:padding="6dp">
+
+    <!-- 헤더: 제목 + 갱신 시각 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🪙 코인 라이브"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/w_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:textColor="#A9B4C4"
+            android:textSize="9sp"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <!-- 비트코인 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₿ BTC"
+            android:textColor="#F0B23D"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:minWidth="52dp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/w_btc_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="—"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/w_btc_chg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:minWidth="58dp"
+            android:gravity="end"
+            android:text=""
+            android:textColor="#E0574D"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <!-- 이더리움 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ξ ETH"
+            android:textColor="#8FA6E8"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:minWidth="52dp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/w_eth_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="—"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/w_eth_chg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:minWidth="58dp"
+            android:gravity="end"
+            android:text=""
+            android:textColor="#E0574D"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>
